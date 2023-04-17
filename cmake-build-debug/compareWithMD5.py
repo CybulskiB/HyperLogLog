@@ -30,7 +30,7 @@ def createplot(bytes):
 
     with open('Results/SHA256/Res' + toB(bytes) +'.csv',"r") as file:
         for line in file:
-            x,  y = line.split(";")
+            x,  y, z = line.split(";")
             resultHyperLogLog.append(int(x)/int(y))
 
     plt.figure(figsize=(30,10))
