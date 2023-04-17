@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HyperLogLog",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HyperLogLog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HyperLogLog-Debug-17bc0a25a807e80046ba.json",
+					"name" : "HyperLogLog",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/bartosz.cybulski@btech.pl/Desktop/Studia/AnalizaAlgorytmow/HyperLogLog/cmake-build-debug",
+		"source" : "C:/Users/bartosz.cybulski@btech.pl/Desktop/Studia/AnalizaAlgorytmow/HyperLogLog"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
